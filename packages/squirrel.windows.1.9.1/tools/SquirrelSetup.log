@@ -1,0 +1,194 @@
+﻿2019-11-29 22:46:55> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.0.nupkg
+2019-11-29 22:46:55> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-11-29 22:46:55> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.0.nupkg
+2019-11-29 22:46:55> ReleasePackage: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.0.nupkg => E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.0-full.nupkg
+2019-11-29 22:46:55> ReleasePackage: Extracting dependent packages: []
+2019-11-29 22:46:55> ReleasePackage: Removing unnecessary data
+2019-11-29 22:46:55> ReleasePackage: No release notes found in C:\Users\Kavin\AppData\Local\SquirrelTemp\tempa\TestWpfFrameWork.nuspec
+2019-11-29 22:46:56> Program: Building embedded zip file for Setup.exe
+2019-12-02 09:49:56> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.0.nupkg
+2019-12-02 09:49:56> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 09:49:56> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.0.nupkg
+2019-12-02 09:49:56> ReleasePackage: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.0.nupkg => E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.0-full.nupkg
+2019-12-02 09:49:56> ReleasePackage: Extracting dependent packages: []
+2019-12-02 09:49:56> ReleasePackage: Removing unnecessary data
+2019-12-02 09:49:56> ReleasePackage: No release notes found in C:\Users\Kavin\AppData\Local\SquirrelTemp\tempa\TestWpfFrameWork.nuspec
+2019-12-02 09:49:57> Program: Building embedded zip file for Setup.exe
+2019-12-02 09:59:48> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.0.nupkg
+2019-12-02 09:59:48> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 09:59:48> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.0.nupkg
+2019-12-02 09:59:49> ReleasePackage: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.0.nupkg => E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.0-full.nupkg
+2019-12-02 09:59:49> ReleasePackage: Extracting dependent packages: []
+2019-12-02 09:59:49> ReleasePackage: Removing unnecessary data
+2019-12-02 09:59:49> ReleasePackage: No release notes found in C:\Users\Kavin\AppData\Local\SquirrelTemp\tempa\TestWpfFrameWork.nuspec
+2019-12-02 09:59:49> Program: Building embedded zip file for Setup.exe
+2019-12-02 09:59:59> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.1.nupkg
+2019-12-02 09:59:59> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 09:59:59> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.1.nupkg
+2019-12-02 09:59:59> ReleasePackage: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.1.nupkg => E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.1-full.nupkg
+2019-12-02 09:59:59> ReleasePackage: Extracting dependent packages: []
+2019-12-02 09:59:59> ReleasePackage: Removing unnecessary data
+2019-12-02 09:59:59> ReleasePackage: No release notes found in C:\Users\Kavin\AppData\Local\SquirrelTemp\tempa\TestWpfFrameWork.nuspec
+2019-12-02 10:00:00> DeltaPackageBuilder: Extracting .\Releases\TestWpfFrameWork-1.0.0-full.nupkg and E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.1-full.nupkg into C:\Users\Kavin\AppData\Local\SquirrelTemp\tempb
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\DataBase.sdf hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\JapTestAppLogic.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\sqlceca40.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\sqlcecompact40.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\sqlceer40EN.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\sqlceme40.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\sqlceoledb40.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\sqlceqp40.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\sqlcese40.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\System.Data.SqlServerCe.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: \lib\net45\System.Data.SqlServerCe.Entity.dll hasn't changed, writing dummy file
+2019-12-02 10:00:00> DeltaPackageBuilder: Delta patching C:\Users\Kavin\AppData\Local\SquirrelTemp\tempa\lib\net45\Test WPF Framework.exe => C:\Users\Kavin\AppData\Local\SquirrelTemp\tempb\lib\net45\Test WPF Framework.exe
+2019-12-02 10:00:01> DeltaPackageBuilder: \lib\net45\Test WPF Framework.exe.config hasn't changed, writing dummy file
+2019-12-02 10:00:01> DeltaPackageBuilder: \lib\net45\Test WPF Framework_ExecutionStub.exe hasn't changed, writing dummy file
+2019-12-02 10:00:01> Program: Building embedded zip file for Setup.exe
+2019-12-02 10:17:37> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.1.1.nupkg
+2019-12-02 10:17:37> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 10:17:37> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.1.1.nupkg
+2019-12-02 10:17:37> Unhandled exception: System.Exception: Your package version is currently 1.0.1.1, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-12-02 10:18:36> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.2.nupkg
+2019-12-02 10:18:36> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 10:18:36> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.1.1.nupkg
+2019-12-02 10:18:36> Unhandled exception: System.Exception: Your package version is currently 1.0.1.1, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-12-02 10:20:16> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.2.nupkg
+2019-12-02 10:20:16> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 10:20:16> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.1.1.nupkg
+2019-12-02 10:20:16> Unhandled exception: System.Exception: Your package version is currently 1.0.1.1, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-12-02 10:23:08> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.2.nupkg
+2019-12-02 10:23:08> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 10:23:08> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.2.nupkg
+2019-12-02 10:23:08> ReleasePackage: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.2.nupkg => E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.2-full.nupkg
+2019-12-02 10:23:09> ReleasePackage: Extracting dependent packages: []
+2019-12-02 10:23:09> ReleasePackage: Removing unnecessary data
+2019-12-02 10:23:09> ReleasePackage: No release notes found in C:\Users\Kavin\AppData\Local\SquirrelTemp\tempa\TestWpfFrameWork.nuspec
+2019-12-02 10:23:09> Program: Building embedded zip file for Setup.exe
+2019-12-02 10:30:03> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.2.nupkg
+2019-12-02 10:30:03> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 10:30:03> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.2.nupkg
+2019-12-02 10:30:03> ReleasePackage: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.2.nupkg => E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.2-full.nupkg
+2019-12-02 10:30:03> ReleasePackage: Extracting dependent packages: []
+2019-12-02 10:30:04> ReleasePackage: Removing unnecessary data
+2019-12-02 10:30:04> ReleasePackage: No release notes found in C:\Users\Kavin\AppData\Local\SquirrelTemp\tempa\TestWpfFrameWork.nuspec
+2019-12-02 10:30:04> Program: Building embedded zip file for Setup.exe
+2019-12-02 10:30:05> Program: Failed to update Setup.exe with new Zip file: System.Exception: Failed to write Zip to Setup.exe!
+
+Setup: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\Setup.exe, Zip: C:\Users\Kavin\AppData\Local\Temp\tmpFCA7.tmp
+Starting to read in Zip file!
+Updating Resource!
+Finished!
+Failed to update resource
+Usage: WriteZipToSetup [Setup.exe template] [Zip File]
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+2019-12-02 10:31:29> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.2.nupkg
+2019-12-02 10:31:29> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 10:31:29> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.2.nupkg
+2019-12-02 10:31:29> ReleasePackage: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.2.nupkg => E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.2-full.nupkg
+2019-12-02 10:31:29> ReleasePackage: Extracting dependent packages: []
+2019-12-02 10:31:29> ReleasePackage: Removing unnecessary data
+2019-12-02 10:31:29> ReleasePackage: No release notes found in C:\Users\Kavin\AppData\Local\SquirrelTemp\tempa\TestWpfFrameWork.nuspec
+2019-12-02 10:31:30> Program: Building embedded zip file for Setup.exe
+2019-12-02 10:35:19> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.3.nupkg
+2019-12-02 10:35:19> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 10:35:19> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.3.nupkg
+2019-12-02 10:35:19> ReleasePackage: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.3.nupkg => E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.3-full.nupkg
+2019-12-02 10:35:19> ReleasePackage: Extracting dependent packages: []
+2019-12-02 10:35:19> ReleasePackage: Removing unnecessary data
+2019-12-02 10:35:19> ReleasePackage: No release notes found in C:\Users\Kavin\AppData\Local\SquirrelTemp\tempa\TestWpfFrameWork.nuspec
+2019-12-02 10:35:20> DeltaPackageBuilder: Extracting .\Releases\TestWpfFrameWork-1.0.2-full.nupkg and E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.3-full.nupkg into C:\Users\Kavin\AppData\Local\SquirrelTemp\tempb
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\DataBase.sdf hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\JapTestAppLogic.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\JapTestAppLogic.pdb hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\NuGet.Squirrel.pdb hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\SharpCompress.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\Splat.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\Splat.pdb hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\sqlceca40.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\sqlcecompact40.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\sqlceer40EN.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\sqlceme40.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\sqlceoledb40.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\sqlceqp40.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\sqlcese40.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\Squirrel.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\Squirrel.pdb hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\System.Data.SqlServerCe.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\System.Data.SqlServerCe.Entity.dll hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: Delta patching C:\Users\Kavin\AppData\Local\SquirrelTemp\tempa\lib\net472\Test WPF Framework.exe => C:\Users\Kavin\AppData\Local\SquirrelTemp\tempb\lib\net472\Test WPF Framework.exe
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\Test WPF Framework.exe.config hasn't changed, writing dummy file
+2019-12-02 10:35:20> DeltaPackageBuilder: Delta patching C:\Users\Kavin\AppData\Local\SquirrelTemp\tempa\lib\net472\Test WPF Framework.pdb => C:\Users\Kavin\AppData\Local\SquirrelTemp\tempb\lib\net472\Test WPF Framework.pdb
+2019-12-02 10:35:20> DeltaPackageBuilder: We really couldn't create a delta for Test WPF Framework.pdb: System.DivideByZeroException: Attempted to divide by zero.
+   at Squirrel.Bsdiff.BinaryPatchUtility.Create(Byte[] oldData, Byte[] newData, Stream output)
+   at Squirrel.DeltaPackageBuilder.createDeltaForSingleFile(FileInfo targetFile, DirectoryInfo workingDirectory, Dictionary`2 baseFileListing)
+2019-12-02 10:35:20> DeltaPackageBuilder: \lib\net472\Test WPF Framework_ExecutionStub.exe hasn't changed, writing dummy file
+2019-12-02 10:35:21> Program: Building embedded zip file for Setup.exe
+2019-12-02 12:43:24> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.4.nupkg
+2019-12-02 12:43:24> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 12:43:24> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.4.nupkg
+2019-12-02 12:43:25> ReleasePackage: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.4.nupkg => E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.4-full.nupkg
+2019-12-02 12:43:25> ReleasePackage: Extracting dependent packages: []
+2019-12-02 12:43:25> ReleasePackage: Removing unnecessary data
+2019-12-02 12:43:25> ReleasePackage: No release notes found in C:\Users\Kavin\AppData\Local\SquirrelTemp\tempc\TestWpfFrameWork.nuspec
+2019-12-02 12:43:25> Program: Building embedded zip file for Setup.exe
+2019-12-02 18:49:47> Program: Starting Squirrel Updater: --releasify TestWpfFrameWork.1.0.5.nupkg
+2019-12-02 18:49:47> Program: Bootstrapper EXE found at:E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-12-02 18:49:47> Program: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.5.nupkg
+2019-12-02 18:49:47> ReleasePackage: Creating release package: E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork.1.0.5.nupkg => E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.5-full.nupkg
+2019-12-02 18:49:48> ReleasePackage: Extracting dependent packages: []
+2019-12-02 18:49:48> ReleasePackage: Removing unnecessary data
+2019-12-02 18:49:48> ReleasePackage: No release notes found in C:\Users\Kavin\AppData\Local\SquirrelTemp\tempc\TestWpfFrameWork.nuspec
+2019-12-02 18:49:48> DeltaPackageBuilder: Extracting .\Releases\TestWpfFrameWork-1.0.4-full.nupkg and E:\Japenese Win Application\Test WPF Framework\Test WPF Framework\Releases\TestWpfFrameWork-1.0.5-full.nupkg into C:\Users\Kavin\AppData\Local\SquirrelTemp\tempd
+2019-12-02 18:49:49> DeltaPackageBuilder: Delta patching C:\Users\Kavin\AppData\Local\SquirrelTemp\tempc\lib\net472\DataBase.sdf => C:\Users\Kavin\AppData\Local\SquirrelTemp\tempd\lib\net472\DataBase.sdf
+2019-12-02 18:49:49> DeltaPackageBuilder: We really couldn't create a delta for DataBase.sdf: System.DivideByZeroException: Attempted to divide by zero.
+   at Squirrel.Bsdiff.BinaryPatchUtility.Create(Byte[] oldData, Byte[] newData, Stream output)
+   at Squirrel.DeltaPackageBuilder.createDeltaForSingleFile(FileInfo targetFile, DirectoryInfo workingDirectory, Dictionary`2 baseFileListing)
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\JapTestAppLogic.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\SharpCompress.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\Splat.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\Squirrel.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\System.Data.SqlServerCe.dll hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: Delta patching C:\Users\Kavin\AppData\Local\SquirrelTemp\tempc\lib\net472\Test WPF Framework.exe => C:\Users\Kavin\AppData\Local\SquirrelTemp\tempd\lib\net472\Test WPF Framework.exe
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\Test WPF Framework.exe.config hasn't changed, writing dummy file
+2019-12-02 18:49:49> DeltaPackageBuilder: \lib\net472\Test WPF Framework_ExecutionStub.exe hasn't changed, writing dummy file
+2019-12-02 18:49:49> Program: Building embedded zip file for Setup.exe

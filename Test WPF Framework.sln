@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test WPF Framework", "Test WPF Framework.csproj", "{3917B2DD-2B49-4BB0-B126-8C299DA0DC8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JapTestAppLogic", "..\..\Test Wpf\Class Library\JapTestAppLogic\JapTestAppLogic.csproj", "{FAED982C-5A30-4FDC-870F-7A5FE2F888F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3917B2DD-2B49-4BB0-B126-8C299DA0DC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3917B2DD-2B49-4BB0-B126-8C299DA0DC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3917B2DD-2B49-4BB0-B126-8C299DA0DC8B}.Debug|x86.ActiveCfg = Debug|x86
+		{3917B2DD-2B49-4BB0-B126-8C299DA0DC8B}.Debug|x86.Build.0 = Debug|x86
+		{3917B2DD-2B49-4BB0-B126-8C299DA0DC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3917B2DD-2B49-4BB0-B126-8C299DA0DC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3917B2DD-2B49-4BB0-B126-8C299DA0DC8B}.Release|x86.ActiveCfg = Release|x86
+		{3917B2DD-2B49-4BB0-B126-8C299DA0DC8B}.Release|x86.Build.0 = Release|x86
+		{FAED982C-5A30-4FDC-870F-7A5FE2F888F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAED982C-5A30-4FDC-870F-7A5FE2F888F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAED982C-5A30-4FDC-870F-7A5FE2F888F0}.Debug|x86.ActiveCfg = Debug|x86
+		{FAED982C-5A30-4FDC-870F-7A5FE2F888F0}.Debug|x86.Build.0 = Debug|x86
+		{FAED982C-5A30-4FDC-870F-7A5FE2F888F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAED982C-5A30-4FDC-870F-7A5FE2F888F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAED982C-5A30-4FDC-870F-7A5FE2F888F0}.Release|x86.ActiveCfg = Release|x86
+		{FAED982C-5A30-4FDC-870F-7A5FE2F888F0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6E0F81B-D292-45C3-9679-F8C2CF8EBE45}
+	EndGlobalSection
+EndGlobal
