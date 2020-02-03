@@ -63,21 +63,9 @@ namespace Test_WPF_Framework
         private async Task CheckForUpdates()
         {
             Task<UpdateManager> manager;
-            //MyUtility.WriteLineMessageBox("Success!!!!?");
             using (manager = UpdateManager.GitHubUpdateManager(@"https://github.com/kavinsaiyan/TestWpfFramework"))
             {
-                //MyUtility.WriteLineMessageBox($"Status?:{manager.Status}\n v:{System.Net.ServicePointManager.SecurityProtocol}");
-                //try {
-                //    UpdateInfo updateInfo =  await manager.Result.CheckForUpdate();
-                //    //MyUtility.WriteLineMessageBox($"{updateInfo.ReleasesToApply.Count}");
-                //    //MyUtility.WriteLineMessageBox($"Status?:{manager.Result.CheckForUpdate().Exception.InnerExceptions[2].Message}");
-                //}
-                //catch (Exception e) { 
-                //    MyUtility.WriteLineMessageBox(e.InnerException.ToString());
-                //    MyUtility.WriteLineDebug(e.InnerException.ToString());
-                //}
                 var val = await manager.Result.UpdateApp();
-                // MyUtility.WriteLineMessageBox("Successfully updated?");
             }
             manager.Result.Dispose();
             manager = null;
@@ -163,23 +151,23 @@ namespace Test_WPF_Framework
             Application.Current.Shutdown();
         }
 
-        private void MaximizeButton_Click(object sender, RoutedEventArgs e)
-        {
-            BitmapImage bitmap = new BitmapImage();
-            bitmap.BeginInit();
-            if (WindowState == WindowState.Maximized)
-            {
-                WindowState = WindowState.Normal;
-                bitmap.UriSource = new Uri(@"pack://application:,,,/Test WPF Framework;component/Resources/MaximizeJapanese.png");
-            }
-            else
-            {
-                WindowState = WindowState.Maximized;
-                bitmap.UriSource = new Uri(@"pack://application:,,,/Test WPF Framework;component/Resources/RestoreJapanese.png");
-            }
-            bitmap.EndInit();
-            MaximizeOrRestoreImage.Source = bitmap;
-        }
+        //private void MaximizeButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    BitmapImage bitmap = new BitmapImage();
+        //    bitmap.BeginInit();
+        //    if (WindowState == WindowState.Maximized)
+        //    {
+        //        WindowState = WindowState.Normal;
+        //        bitmap.UriSource = new Uri(@"pack://application:,,,/Test WPF Framework;component/Resources/MaximizeJapanese.png");
+        //    }
+        //    else
+        //    {
+        //        WindowState = WindowState.Maximized;
+        //        bitmap.UriSource = new Uri(@"pack://application:,,,/Test WPF Framework;component/Resources/RestoreJapanese.png");
+        //    }
+        //    bitmap.EndInit();
+        //    MaximizeOrRestoreImage.Source = bitmap;
+        //}
 
         private void MinimizeButton_Click(object sender, RoutedEventArgs e)
         {

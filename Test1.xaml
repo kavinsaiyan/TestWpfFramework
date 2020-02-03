@@ -10,16 +10,11 @@
         WindowStyle="None"
         ShowInTaskbar="True"
         Icon="Resources\testjapanese_DiF_icon.ico"
+        ResizeMode="NoResize"
         >
 
 
-    <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FF5B32E6" Offset="0"/>
-                <GradientStop Color="#FF240E72" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
+    <Grid Background="#21DAE6">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
             <ColumnDefinition Width="auto"/>
@@ -30,7 +25,8 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="240.5"/>
+            <RowDefinition Height="166.5"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto" MinHeight="536"/>
             <RowDefinition Height="*"/>
@@ -39,7 +35,7 @@
 
         <!--TitleBar-->
         <Border Margin="0,0,0,0"
-            BorderBrush="#FF2D0368"
+            BorderBrush="#FF02C9FB"
             BorderThickness="0"
             Grid.ColumnSpan="5">
             <Border.Effect>
@@ -49,7 +45,7 @@
             <Rectangle
                    HorizontalAlignment="Stretch" 
                    Grid.Row="0"
-                   Grid.ColumnSpan="6" Fill="#FF5B32E6"
+                   Grid.ColumnSpan="6" Fill="#00CCFF"
                    Grid.RowSpan="2"
                    MouseDown="Rectangle_MouseDown"
                    MinHeight="40"
@@ -64,15 +60,16 @@
                    FontWeight="Bold"
                    FontSize="30"
                    MouseDown="Rectangle_MouseDown"
+                   Foreground="#FF3300"
         />
 
         <!--Close Button-->
         <Button VerticalAlignment="Top" 
                 HorizontalAlignment="Right"
-                Grid.Column="1"
+                Grid.Column="4"
                 Grid.Row="0"
                 Width="95" Height="40"
-                Grid.ColumnSpan="5"
+                Grid.ColumnSpan="2"
                 Click="CloseButton_Click"
                 Style="{StaticResource TaskBarButtons}">
             <StackPanel>
@@ -80,7 +77,7 @@
             </StackPanel>
         </Button>
 
-        <!--Maximize/Restore Button-->
+        <!--Maximize/Restore Button--><!--
         <Button x:Name="MaximizeButton"
                 VerticalAlignment="Top" 
                 HorizontalAlignment="Right"
@@ -96,17 +93,17 @@
                        Source="Resources\MaximizeJapanese.png" 
                        Stretch="Fill" Height="39"/>
             </StackPanel>
-        </Button>
+        </Button>-->
 
         <!--Minimize Button-->
         <Button VerticalAlignment="Top" 
                 HorizontalAlignment="Right"
-                 Grid.Column="1"
+                Grid.Column="1"
                 Grid.Row="0"
-                Width="95" Height="40"
                 Grid.ColumnSpan="4"
+                Width="95" Height="40"
                 Style="{StaticResource TaskBarButtons}" 
-                Margin="0,0,180,0"
+                Margin="0,0,80,0"
                 Click="MinimizeButton_Click">
             <StackPanel>
                 <Image Source="Resources\MinimizeJapenese.png" Stretch="Fill"
@@ -115,24 +112,24 @@
             </StackPanel>
         </Button>
 
-
-
         <!--Starting Panel-->
         <StackPanel x:Name="StartingPanel"
                     Grid.Row="1" Grid.Column="1"
                     Margin="20,10,0,0"
                     Visibility="Visible"
-                    IsEnabled="True"
+                    IsEnabled="True" Grid.RowSpan="2"
                     >
             <TextBlock Text="テスト部分を選択してください" 
                        FontWeight="DemiBold"
                        FontSize="25"
+                       Foreground="#E62D21"
                        />
             <ListBox x:Name="TestPortionsListBox"
                      SelectionMode="Multiple"
                      MinWidth="400"
                      MinHeight="260"
                      Margin="0,0,0,0"
+                     
                      >
                 <ListBox.ItemTemplate>
                     <DataTemplate>
@@ -146,7 +143,8 @@
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="質問なし :"
                        FontWeight="Light"
-                       FontSize="25"/>
+                       FontSize="25"
+                       Foreground="#E62D21"/>
                 <TextBox 
                     x:Name="NoOfQuestionsTextBox"
                     Margin="8,0,0,0"
@@ -172,19 +170,20 @@
                     Margin="0,0,0,0"
                     Visibility="Hidden"
                     IsEnabled="False"
-                    Orientation="Vertical">
+                    Orientation="Vertical" Grid.RowSpan="2">
 
             <!--Choose no of questions TextBlock-->
             <TextBlock Text="質問を選択しない"
                        Height="30"
                        FontWeight="Bold"
                        FontSize="25"
+                       Foreground="#E62D21"
             />
 
 
             <StackPanel Orientation="Horizontal"
                         Height="280">
-                 <!--ChooseQuestionsListBox--> 
+                <!--ChooseQuestionsListBox-->
                 <ListBox x:Name="ChooseQuestionsListBox"
                          MinWidth="200"
                          MinHeight="200"
@@ -206,6 +205,7 @@
                                    MinHeight="30"
                                    MinWidth="100"
                                    FontSize="30"
+                               Foreground="#E62D21"
                     />
 
                     <TextBox
@@ -219,6 +219,7 @@
                                    MinHeight="30"
                                    MinWidth="100"
                                    FontSize="30"
+                               Foreground="#E62D21"
                                    Margin="0,30,0,0"/>
 
                     <TextBox x:Name="EndIndexTextBlock"
@@ -248,7 +249,7 @@
                     Visibility="Hidden"
                     IsEnabled="False"
                     Orientation="Vertical"
-                    Grid.ColumnSpan="9">
+                    Grid.ColumnSpan="5" Grid.RowSpan="2">
             <!--Question-->
             <TextBlock
                        x:Name="Question"
@@ -257,6 +258,7 @@
                        VerticalAlignment="Top"
                        Height="68"
                        Margin="4,0,0,10"
+                       Foreground="#E62D21"
                        FontSize="50"
                        FontWeight="DemiBold"
                        Text="Question"
@@ -268,6 +270,7 @@
                          FontSize="30"
                          Checked="AnswerButton0_Checked"
                          MinHeight="40"
+                         Foreground="#E62D21"
                          >
                 Answer0
             </RadioButton>
@@ -276,7 +279,8 @@
                          IsChecked="False" 
                          FontSize="30"
                          Checked="AnswerButton1_Checked"
-                         MinHeight="40">
+                         MinHeight="40"
+                         Foreground="#E62D21">
                 Answer1
             </RadioButton>
 
@@ -284,7 +288,8 @@
                          IsChecked="False" 
                          FontSize="30"
                          Checked="AnswerButton2_Checked"
-                         MinHeight="40">
+                         MinHeight="40"
+                         Foreground="#E62D21">
                 Answer2
             </RadioButton>
 
@@ -292,7 +297,8 @@
                          IsChecked="False" 
                          FontSize="30"
                          Checked="AnswerButton3_Checked"
-                         MinHeight="40">
+                         MinHeight="40"
+                         Foreground="#E62D21">
                 Answer3
             </RadioButton>
 
@@ -302,7 +308,7 @@
                         Margin="0,50,0,0">
                 <!--PreviousQuestionButton-->
                 <Button x:Name="PreviousQuestionButton"
-                        Style="{StaticResource TaskBarButtons}"
+                        Style="{StaticResource NormalButtons}"
                         Width="120"
                         Height="40"
                         Content ="前"
@@ -312,7 +318,7 @@
 
                 <!--SubmitTestButton-->
                 <Button x:Name="SubmitTestButton"
-                        Style="{StaticResource TaskBarButtons}"
+                        Style="{StaticResource NormalButtons}"
                         Width="120"
                         Height="40"
                         Margin="100,0,0,0"
@@ -324,7 +330,7 @@
 
                 <!--NextButton-->
                 <Button x:Name="NextQuestionButton"
-                        Style="{StaticResource TaskBarButtons}"
+                        Style="{StaticResource NormalButtons}"
                         Width="120"
                         Height="40"
                         Margin="100,0,0,0"
@@ -342,7 +348,7 @@
                     Visibility="Hidden"
                     IsEnabled="False"
                     Orientation="Vertical"
-                    Grid.ColumnSpan="8">
+                    Grid.ColumnSpan="6" Grid.RowSpan="2">
 
 
             <ScrollViewer VerticalScrollBarVisibility="Auto" 
@@ -351,6 +357,7 @@
                  HorizontalScrollBarVisibility="Auto">
                 <TextBlock x:Name="AnswersTextBlock" 
                     FontSize="20"
+                           Foreground="#E62D21"
                  />
             </ScrollViewer>
             <TextBlock x:Name="YourScoreTextBlock"
